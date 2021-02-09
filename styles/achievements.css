@@ -1,0 +1,23 @@
+.achievements-list {
+    display: flex;
+
+}
+.achievements-list-item {
+    width: 33.33%;
+    text-align: center;
+
+}
+.achievement-list-item-number {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.25;
+}
+.achievement-list-item-label {
+    font-weight: 300;
+
+
+}
+.achievements-list-item:hover .line-border-bottom-center:after {
+    display: block;
+}

@@ -1,0 +1,64 @@
+.contacts-section {
+    background: black;
+    color: white;
+    font-size: 0;
+
+
+}
+.contacts-item i {
+    color:white;
+    margin-right: 15px;
+}
+.contacts-section-header {
+    color: white;
+}
+.contacts-form-input {
+    color: white;
+    border: 0;
+    border-bottom: 1px solid grey;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding: 10px 7px;
+    margin-bottom: 20px;
+}
+.contacts-form-submit-btn {
+
+}
+.contacts-phone a, .contacts-email a {
+    color: #656565;
+}
+.contacts-item {
+    margin-bottom: 30px;
+}
+.contacts-adress {
+    display: flex;
+    align-items: baseline;
+}
+.social-links {
+    display: flex;
+}
+.social-links-item {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid grey;
+    background: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links-item i {
+    color: black;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .section-content-left-contact {
+        margin-bottom: 30px;
+    }
+
+}

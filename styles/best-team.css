@@ -1,0 +1,44 @@
+.best-team-section {
+    background-color: #FFE18D;
+    border: none;
+}
+
+.best-team-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.best-team-item {
+
+    width: 33.33%;
+    text-align: center;
+}
+.best-team-image-holder {
+    height: 160px;
+    width: 160px;
+
+    margin: 0 auto 10px;
+
+}
+
+.best-team-img {
+    max-width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.best-team-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.25;
+}
+@media (max-width:650px) {
+    .best-team-item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .best-team-image-holder {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,42 @@
+.about-us-section-content {
+    font-size: 0;
+
+}
+
+.about-us-image {
+    max-width: 100%;
+
+}
+.about-us-tagline {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0 0;
+    line-height: 1.25;
+    margin: 30px 40px 20px;
+    color: black;
+
+}
+.about-us-text p {
+    margin-bottom: 10px;
+}
+.about-us-text .line-border-top {
+    padding-top: 30px;
+}
+.about-us-tagline .line-border-top {
+    padding-top: 30px;
+}
+.about-us-text:hover  .line-border-top:after {
+    display: block;
+}
+.about-us-tagline-line:hover .line-border-top:after {
+    display: block;
+}
+
+
+@media (max-width:600px) {
+    .section-content-left,.section-content-right {
+        width:100%;
+        padding: 0;
+    }
+
+}

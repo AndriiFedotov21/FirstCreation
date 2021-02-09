@@ -1,0 +1,47 @@
+.photos-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos-item {
+   width: 16%;
+
+}
+
+.photos-item img {
+    max-width: 100%;
+}
+.instagram-section-content {
+    text-align: center;
+}
+
+@media (max-width:970px) {
+    .photos-item {
+        width: 33%;
+        margin-bottom: 5px;
+    }
+
+    .photos-list {
+        flex-wrap: wrap;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .photos-item {
+        width: 49.5%;
+
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .photos-item {
+        width: 100%;
+
+    }
+
+
+}

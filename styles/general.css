@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.section {
+    padding: 60px 50px;
+    border-top: 1px solid grey;
+}
+.section-header {
+    padding-bottom: 60px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+.line-border-top {
+    position: relative;
+
+
+}
+
+.line-border-top:after {
+
+    display: none;
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    background: black;
+    height: 2px;
+    top: 0;
+    left: 0;
+}
+
+
+.line-border-bottom-center:after {
+    content: ' ';
+
+    display: none;
+    margin: 5px auto 8px;
+    width: 50px;
+    background: black;
+    height: 2px;
+    top: 0;
+    left: 0;
+}
+
+.best-team-item:hover .line-border-bottom-center:after {
+    display: block;
+}
+.section-content-left,.section-content-right  {
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #656565;
+
+
+}
+
+
+.section-content-left {
+    padding-right: 20px;
+
+}
+.section-content-right {
+    padding-left: 20px;
+
+}
+.btn-default {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #c4b1b1;
+    display: inline-block;
+    margin-top: 40px;
+
+}
